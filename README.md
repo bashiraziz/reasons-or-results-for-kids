@@ -1,16 +1,18 @@
 # Reasons or Results
 
-A collection of illustrated readings about the difference between having a reason and getting a result, including versions for young readers, adults, and engineering leaders.
+A collection of illustrated readings about the difference between having a reason and getting a result, with separate paths for children and adults.
 
 ## Pages
 
-- `index.html` — landing page for the collection
-- `kids/index.html` — interactive kids' version with activities
-- `kids/reading.html` — kids' reading without activities
-- `essay/index.html` — “Your Reasons Are True” essay
-- `essay/engineering.html` — engineering leadership version
+- `/` — audience selection
+- `/children/` — children's collection
+- `/children/interactive.html` — interactive version with activities
+- `/children/reading.html` — reading without activities
+- `/adults/` — adult collection
+- `/adults/reasons.html` — “Your Reasons Are True”
+- `/adults/engineering.html` — engineering leadership edition
 
-The original `/reading.html` URL redirects to `/kids/reading.html` so existing links continue to work. The original root URL remains available and now displays the collection landing page.
+Legacy `/kids/`, `/kids/reading.html`, `/reading.html`, `/essay/`, and `/essay/engineering.html` links redirect to their new locations.
 
 The reading files are fully self-contained. There is no build step, server dependency, or tracking. Answers entered into the interactive activity stay in the reader's browser and are not sent anywhere.
 
