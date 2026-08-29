@@ -1,17 +1,24 @@
 # Reasons or Results
 
-An illustrated, interactive guide for ages 12+ on the difference between having a reason and getting a result, told through Chuck Yeager's 1947 flight past the sound barrier.
+A collection of illustrated readings about the difference between having a reason and getting a result, including versions for young readers, adults, and engineering leaders.
 
-- `index.html` — the interactive version (sorting game, a "find your broom handle" prompt, and a quiz)
-- `reading.html` — the same article with the activities removed, for straight reading or printing
+## Pages
 
-Both files are fully self-contained. No build step, no server, no dependencies, no tracking, and nothing is collected from the reader — the one activity that stores an answer keeps it in the reader's own browser and never sends it anywhere.
+- `index.html` — landing page for the collection
+- `kids/index.html` — interactive kids' version with activities
+- `kids/reading.html` — kids' reading without activities
+- `essay/index.html` — “Your Reasons Are True” essay
+- `essay/engineering.html` — engineering leadership version
+
+The original `/reading.html` URL redirects to `/kids/reading.html` so existing links continue to work. The original root URL remains available and now displays the collection landing page.
+
+The reading files are fully self-contained. There is no build step, server dependency, or tracking. Answers entered into the interactive activity stay in the reader's browser and are not sent anywhere.
 
 ## Publishing
 
-**GitHub Pages** — push this folder to a public repo, then Settings → Pages → Deploy from a branch → `main` / `/root`.
+For GitHub Pages, push this folder to a public repository, then select **Settings → Pages → Deploy from a branch → `main` / `/root`**.
 
-**Vercel** — import the repo, framework preset "Other", leave the build command empty and set the output directory to the folder containing these files. Or drag the folder onto the Vercel dashboard.
+For Vercel, import the repository, choose the **Other** framework preset, leave the build command empty, and use the repository root as the output directory.
 
 ## License
 
